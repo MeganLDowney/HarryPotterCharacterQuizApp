@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+
+    <TextView
+        android:id="@+id/txtTitle2"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/acme"
+        android:gravity="center"
+        android:text="@string/txtTitle2"
+        android:textColor="#9BD4E3"
+        android:textSize="42sp"
+        tools:layout_editor_absoluteX="2dp" />
+
+    <Spinner
+        android:id="@+id/txtCharacters"
+        android:layout_width="315dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="193dp"
+        android:entries="@array/txtCharacters"
+        android:gravity="center"
+        android:prompt="@string/txtPrompt"
+        android:spinnerMode="dialog" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp"
+        android:backgroundTint="#9BD4E3"
+        android:fontFamily="@font/acme"
+        android:text="@string/btn1"
+        android:textColor="#311D0D"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="409dp"
+        android:layout_height="234dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="105dp"
+        android:contentDescription="@string/imgDescription"
+        app:srcCompat="@drawable/hp_three" />
+
+    <TextView
+        android:id="@+id/txtResultSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="295dp"
+        android:fontFamily="@font/acme"
+        android:textColor="#9BD4E3"
+        android:textSize="22sp" />
+
+
+</RelativeLayout>

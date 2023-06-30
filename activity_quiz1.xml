@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quiz1">
+
+
+    <TextView
+        android:id="@+id/txtQuestion1"
+        android:layout_width="412dp"
+        android:layout_height="123dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/acme"
+        android:text="@string/txtQuestion1"
+        android:textAlignment="center"
+        android:textColor="#9BD4E3"
+        android:textSize="38sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="49dp"
+        android:backgroundTint="#9BD4E3"
+        android:fontFamily="@font/acme"
+        android:text="@string/btnNext"
+        android:textColor="#311D0D"
+        android:textSize="28sp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="164dp">
+
+        <RadioButton
+            android:id="@+id/rad1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#9BD4E3"
+            android:checked="true"
+            android:fontFamily="@font/acme"
+            android:text="@string/rad11"
+            android:textColor="#9BD4E3"
+            android:textSize="26sp" />
+
+        <RadioButton
+            android:id="@+id/rad12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#9BD4E3"
+            android:fontFamily="@font/acme"
+            android:text="@string/rad12"
+            android:textColor="#9BD4E3"
+            android:textSize="26sp" />
+
+        <RadioButton
+            android:id="@+id/rad13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/acme"
+            android:text="@string/rad13"
+            android:textColor="#9BD4E3"
+            android:textSize="26sp" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="266dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="119dp"
+        android:contentDescription="@string/imgDescription"
+        app:srcCompat="@drawable/hp_hangout" />
+</RelativeLayout>

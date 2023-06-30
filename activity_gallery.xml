@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gallery"
+    android:orientation="vertical"
+    android:layout_centerInParent="true">
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="301dp"
+        android:layout_height="219dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="50dp"
+        android:horizontalSpacing="5dp"
+        android:numColumns="3"
+        android:verticalSpacing="5dp"></GridView>
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:id="@+id/imgPhoto"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="image of harry, ron or hermione"/>
+
+    <Button
+        android:id="@+id/btnList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgPhoto"
+        android:backgroundTint="#9BD4E3"
+        android:layout_marginLeft="40dp"
+        android:fontFamily="@font/acme"
+        android:gravity="center|center_horizontal"
+        android:text="@string/btnList"
+        android:textColor="#311D0D"
+        android:textSize="30sp" />
+
+</LinearLayout>

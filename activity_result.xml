@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Result">
+
+    <TextView
+        android:id="@+id/txtTitle3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:fontFamily="@font/acme"
+        android:text="@string/txtTitle3"
+        android:textAlignment="center"
+        android:textColor="#9BD4E3"
+        android:textSize="43sp" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_below="@+id/txtTitle3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="136dp"
+        android:fontFamily="@font/acme"
+        android:textAlignment="center"
+        android:textColor="#9BD4E3"
+        android:textSize="42sp" />
+
+    <ImageView
+        android:id="@+id/imgResult"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_below="@id/txtResult"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="85dp"
+        android:contentDescription="image of Harry, Ron or Hermione" />
+
+    <Button
+        android:id="@+id/btnGallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="59dp"
+        android:backgroundTint="#9BD4E3"
+        android:fontFamily="@font/acme"
+        android:text="@string/btnGallery"
+        android:textColor="#311D0D"
+        android:textSize="30sp" />
+</RelativeLayout>
